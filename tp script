@@ -1,0 +1,6 @@
+--Discord: flopie#6476
+mouse = game.Players.LocalPlayer:GetMouse()
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = ":D (click to tp 0"
+tool.Activated:connect(function()
